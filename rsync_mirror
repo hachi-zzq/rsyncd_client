@@ -1,0 +1,5 @@
+#! /bin/sh
+
+chmod 600 /etc/rsyncd.secret
+
+rsync -az root@$RSYNCD_HOST::feie_tenancy /share --password-file=/etc/rsyncd.secret
