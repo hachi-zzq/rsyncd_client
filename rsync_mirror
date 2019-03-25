@@ -2,4 +2,4 @@
 
 chmod 600 /etc/rsyncd.secret
 
-rsync -az $RSYNCD_USER@$RSYNCD_HOST::$RSYNCD_MODULE /share --password-file=/etc/rsyncd.secret
+rsync -az $RSYNCD_USER@$RSYNCD_HOST:$RSYNCD_PORT::$RSYNCD_MODULE /share --password-file=/etc/rsyncd.secret
