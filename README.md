@@ -11,3 +11,5 @@ RSYNCD_USER=
 
 // rsyncd module
 RSYNCD_MODULE=
+
+RSYNCD_PORT=873
